@@ -21,6 +21,6 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    'eslintprettier/prettier': 'off',
+    "prettier/prettier": ["error", { "endOfLine": "auto", "printWidth": 80, "trailingComma": "es5", "semi": false, "doubleQuote": true, "jsxSingleQuote": true, "singleQuote": false, "useTabs": false, "tabWidth": 4 }]
   },
 };
